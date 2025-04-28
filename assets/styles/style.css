@@ -231,4 +231,37 @@ body {
     margin: 0;
     text-transform: uppercase;
 }
+ /* Features Section Styles */
+ .features-section {
+    padding: 50px 0;
+}
+.features-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a3c5e;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.features-section p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.features-section .check-list {
+    list-style: none;
+    padding: 0;
+}
+.features-section .check-list li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.features-section .check-list li i {
+    color: #ff5733;
+    margin-right: 10px;
+    font-size: 16px;
+}
 
